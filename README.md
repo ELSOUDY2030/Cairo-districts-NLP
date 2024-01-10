@@ -19,7 +19,7 @@ Cairo-Classifier is a project that classifies headlines based on whether they ar
 
     ```bash
     https://github.com/ELSOUDY2030/Cairo-districts-NLP.git
-    cd cairo-classifier
+    cd Cairo-districts-NLP
     ```
 
 2. Install dependencies:
