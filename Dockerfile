@@ -6,7 +6,7 @@ RUN apt-get update && \
 Run pip install --upgrade pip
 
 
-RUN pip install uvicorn fastapi multipart numpy scikit-learn pickle tensorflow
+RUN pip install uvicorn fastapi multipart numpy scikit-learn tensorflow
 
 EXPOSE 8501
 
