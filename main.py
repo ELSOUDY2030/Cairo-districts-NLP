@@ -20,10 +20,10 @@ async def check_text(text: str):
     padded_sequences = pad_sequences(sequences, maxlen=maxlen)
     re = model.predict(padded_sequences)
     if int(round(re[0][0])) == 1:
-        place = "cairo"
+        place = "Cairo"
 
     else:
-        place = "not cairo"
+        place = "Not Cairo"
 
 
 
