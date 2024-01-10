@@ -1,0 +1,6 @@
+uvicorn 
+fastapi 
+multipart 
+numpy 
+scikit-learn 
+tensorflow
