@@ -49,5 +49,5 @@ Explain how users can use your project, make predictions using the API, and any 
 To run the project using Docker, follow these steps:
 
 ```bash
-# Add Docker instructions
+# docker container run -it -v C:\clone\location:/docker -p 8501:8501 --name nlp deep/NLP:v1.0
 
