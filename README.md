@@ -31,7 +31,7 @@ Cairo-Classifier is a project that classifies headlines based on whether they ar
 3. Running the FastAPI:
 
     ```bash
-    # uvicorn main:app
+     uvicorn main:app
     ```
 ## Usage
 
