@@ -28,21 +28,11 @@ Cairo-Classifier is a project that classifies headlines based on whether they ar
     pip install -r requirements.txt
     ```
 
-3. Training the LSTM model:
+3. Running the FastAPI:
 
     ```bash
-    # Add instructions to train the LSTM model
+    # uvicorn main:app
     ```
-
-4. Running the FastAPI:
-
-    ```bash
-    # Add instructions to run the FastAPI server
-    ```
-
-## Usage
-
-Explain how users can use your project, make predictions using the API, and any other relevant information.
 
 ## Docker
 
