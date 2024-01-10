@@ -33,15 +33,16 @@ Cairo-Classifier is a project that classifies headlines based on whether they ar
     ```bash
     # uvicorn main:app
     ```
+## Usage
+
+Upon accessing the API, you have the option to input text, and the resulting output will be determined by the model's predictions, categorizing it as either "cairo" or "not cairo"
+
 
 ## Docker
 
 To run the project using Docker, follow these steps:
 
 ```bash
-# docker container run -it -v C:\clone\location:/docker -p 8501:8501 --name nlp deep/NLP:v1.0
-
-
-
+docker container run -it -v C:\clone\location:/docker -p 8501:8501 --name nlp deep/NLP:v1.0
 
 
