@@ -18,7 +18,7 @@ Cairo-Classifier is a project that classifies headlines based on whether they ar
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/cairo-classifier.git
+    https://github.com/ELSOUDY2030/Cairo-districts-NLP.git
     cd cairo-classifier
     ```
 
@@ -40,4 +40,8 @@ To run the project using Docker, follow these steps:
 
 ```bash
 # docker container run -it -v C:\clone\location:/docker -p 8501:8501 --name nlp deep/NLP:v1.0
+
+
+
+
 
